@@ -1,0 +1,203 @@
+
+html{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  padding-bottom: 20px;
+
+}
+.page{
+overflow: hidden;
+}
+div{
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.dashboardLayout{
+  text-align: center;
+  position: relative;
+}
+
+.header{
+background-image:url('../imgs/headerBackground.jpg');
+  width: 1500px;
+  height: 300px;
+  position: relative;
+}
+
+.teamNumber{
+  font-family:"Roboto";
+  color: #66CE5B;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-weight: 800;
+  position: absolute;
+  left: 600px;
+  top: 140px;
+}
+
+.teamName{
+  color: grey;
+  font-family: "Roboto";
+  margin: 0 0 5px 0;
+  padding: 0 0 0 0;
+  position: absolute;
+  left: 500px;
+  top: 170px;
+}
+
+.headerBorder{
+  width: 1500px;
+  height: 50px;
+  background-color: black;
+}
+
+.logo{
+  position: relative;
+  bottom: 195px;
+  width: 90px;
+  height: 90px;
+}
+
+.logoFrame{
+  position: relative;
+  bottom: 100px;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: silver;
+}
+
+.menu{
+  color: white;
+  font-family: "Lato";
+  font-size: 175%;
+  position: relative;
+}
+
+h2.menu:hover{
+  color: #2a6bd3;
+}
+
+#home{
+  bottom: 240px;
+  right: 350px;
+}
+
+#gallery{
+  bottom: 300px;
+  right: 200px;
+}
+
+#contact{
+bottom: 361px;
+left: 200px;
+}
+
+#about{
+  bottom: 420px;
+  left: 350px;
+}
+
+.article{
+margin: 75px 200px 50px 200px ;
+
+}
+
+#article1{
+  position: relative;
+  top: 100px;
+}
+
+#article2{
+position: absolute;
+bottom: 450px;
+}
+
+.footerLine{
+  position: absolute;
+  color: black;
+  background-color: black;
+  bottom: 25px;
+  margin: 25px;
+  size: 200px;
+  height:0.75px;
+  width: 100%;
+}
+
+.articleContentLeft{
+  position: relative;
+  left: 25px;
+  font-size: 220%;
+}
+
+.articleContentRight{
+  position: relative;
+  left: 25px;
+  bottom: 30px;
+  margin: 10px;
+  font-size: 89.5%;
+
+}
+
+#paragraphTwo{
+  position: relative;
+  bottom: 15px;
+}
+
+/* Slick Css*/
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+/*End SLick Css*/
+
+#galleryPosition{
+  position: relative;
+  bottom: 50px;
+}
+
+.gallery {
+
+  min-height: 400px;
+   max-height: 600px;
+   max-length: 1200;
+
+}
+
+#landscape{
+  position: relative;
+  top: 100px
+}
+
+#medium{
+  position: relative;
+  top: 50px;
+}
+
+.mainFooter{
+  position: absolute;
+  left: 500px;
+}
