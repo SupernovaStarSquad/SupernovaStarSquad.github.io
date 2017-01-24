@@ -109,7 +109,7 @@ left: 200px;
 }
 
 .article{
-margin: 75px 200px 50px 200px ;
+margin: 75px 200px 50px 200px;
 
 }
 
@@ -147,6 +147,21 @@ bottom: 450px;
   margin: 10px;
   font-size: 89.5%;
 
+}
+
+#article2content{
+
+}
+
+#articleimg2 {
+  position: relative;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 75px;
+    left: -25px;
 }
 
 #paragraphTwo{
